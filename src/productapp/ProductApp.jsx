@@ -4,6 +4,8 @@ import { types } from '../types';
 
 export const ProductApp = () => {
 
+       console.log('Probando')
+    
     const [productState, dispatch] = useReducer(productReducer, initialProductState);
     const { products, cart, activeProduct } = productState;
     
